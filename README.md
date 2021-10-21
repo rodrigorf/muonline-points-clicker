@@ -12,7 +12,7 @@ Special thanks to Gabriel, for finding this lib - https://github.com/ggimenes/
 
 -> **Why the buttons.png image has the 4 buttons instead of only one?**<br>
    _R: because all of them are visually the same but i wanted to click in only one (the last)<br>
-      so i used the 4 image as a reference for the PyAutoGUI lib and them apply a XY offset<br>
+      so i used the "four button image" as a reference for the PyAutoGUI lib and them apply a XY offset<br>
       to click on the exact one._<br>
 
 
@@ -35,7 +35,7 @@ Special thanks to Gabriel, for finding this lib - https://github.com/ggimenes/
 
     * Change the amount of clicks on line 18 (run.py)
     * Change the coordinate offset on line 17
-    * NOTE: its hardcode but i`m going to organizer in a close future!! :)
+    * NOTE: its hardcode but i`m going to organize in a close future!! :)
 
 ## Be happy! Don`t waste your time clicking thousands of times! :)
     EXECUTE: exec.bat ou python run.py
