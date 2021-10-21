@@ -1,5 +1,5 @@
 # nuonline-points-clicker
-Autoclicker to distribute skill points to game MuOnline created with PyAutoGUI
+Autoclicker to distribute skill points to game MuOnline created with PyAutoGUI<br>
 Special thanks to Gabriel, for finding this lib - https://github.com/ggimenes/
 
 ## How it works?
