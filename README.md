@@ -3,8 +3,10 @@ Autoclicker to distribute skill points to game MuOnline created with PyAutoGUI
 
 ## How it works?
 
+![skill buttons image from game screen](https://ibb.co/s53K33H)
+
 -> Uses the skill points add buttons image from the character screen<br>
--> If you are running a different game version, change the buttons.png image.
+-> If you are running a different game version, change the buttons.png image.<br>
 -> It will click in a specific mouse X and Y position to add the points automatically<br>
 
 **NOTE**: created for testing of PyAutoGUI. Use wisely.
