@@ -4,17 +4,11 @@ Special thanks to Gabriel, for finding this lib - https://github.com/ggimenes/
 
 ## How it works?
 
-![skill buttons image from game screen](https://i.ibb.co/PTCcCCQ/buttons.png)
+![unique_button](https://user-images.githubusercontent.com/6570848/142738498-f2eea1e1-0a24-47ac-8180-fa2d564c01c7.png)
 
 -> **Uses the skill points add buttons image from the character screen**<br>
 -> **If you are running a different game version, change the buttons.png image.**<br>
 -> **It will click in a specific mouse X and Y position to add the points automatically**<br>
-
--> **Why the buttons.png image has the 4 buttons instead of only one?**<br>
-   _R: because all of them are visually the same but i wanted to click in only one (the last)<br>
-      so i used the "four button image" as a reference for the PyAutoGUI lib and them apply a XY offset<br>
-      to click on the exact one._<br>
-
 
 **NOTE**: created for testing of PyAutoGUI. Use wisely.
 
@@ -34,7 +28,7 @@ Special thanks to Gabriel, for finding this lib - https://github.com/ggimenes/
 ## Config instructions
 
     * Change the amount of clicks on line 18 (run.py)
-    * Change the coordinate offset on line 17
+    * Change the coordinate offset on line 17 - It depends on screen size. In my case add 220 to Y coord was enough to click on the Energy button.
     * NOTE: its hardcode but i`m going to organize in a close future!! :)
 
 ## Be happy! Don`t waste your time clicking thousands of times! :)
