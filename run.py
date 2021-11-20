@@ -9,13 +9,12 @@ print(f'Windows viewport: {screenWidth}x{screenHeight}')
 currentMouseX, currentMouseY = pyautogui.position()
 print(f'Mouse Initial Position: {currentMouseX}x{currentMouseY}')
 
-pyautogui.click('buttons.png') # Find where button.png appears on the screen and click it.
+pyautogui.click('unique_button.png') # Find where button.png appears on the screen and click it.
 
 currentMouseX, currentMouseY = pyautogui.position()
 print(currentMouseX, currentMouseY)
 
-pyautogui.moveTo(currentMouseX, currentMouseY + 120) 
-for cnt in range(1,1800):
+pyautogui.moveTo(currentMouseX, currentMouseY + 220) 
+for cnt in range(1,10):
     pyautogui.mouseDown()
     pyautogui.mouseUp()
-    #pyautogui.click() DONT WORK :(
