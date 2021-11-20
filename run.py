@@ -9,7 +9,7 @@ print(f'Windows viewport: {screenWidth}x{screenHeight}')
 currentMouseX, currentMouseY = pyautogui.position()
 print(f'Mouse Initial Position: {currentMouseX}x{currentMouseY}')
 
-pyautogui.click('unique_button.png') # Find where button.png appears on the screen and click it.
+pyautogui.click('unique_button.png') 
 
 currentMouseX, currentMouseY = pyautogui.position()
 print(currentMouseX, currentMouseY)
