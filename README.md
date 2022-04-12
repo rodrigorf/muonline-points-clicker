@@ -32,6 +32,7 @@ Special thanks to Gabriel, for finding this lib - https://github.com/ggimenes/
     * NOTE: its hardcode but i`m going to organize in a close future!! :)
 
 ## Be happy! Don`t waste your time clicking thousands of times! :)
-    EXECUTE: exec.bat ou python run.py
+    EXECUTE: exec.bat ou python run.py [CLICK_COUNT_ARG]
+    [CLICK_COUNT_ARG]: you need to inform a value between 1 and 100000. This is the amout of click that will be executed in the skills button.
 
 [Blog - rodrigoreisf.com.br](http://rodrigoreisf.com.br)
