@@ -25,6 +25,6 @@ currentMouseX, currentMouseY = pyautogui.position()
 print(currentMouseX, currentMouseY)
 
 pyautogui.moveTo(currentMouseX, currentMouseY + 220) 
-for cnt in range(1,3000):
+for cnt in range(1, args.clickcount):
     pyautogui.mouseDown()
     pyautogui.mouseUp()
